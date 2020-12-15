@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Lớp L07 - Đề tài 15</title>
+    <meta charset="utf-8">
+    <meta name="author" content="#tothanhphong">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/543px-Logo-hcmut.svg.png">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/rangeslider.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/font.css">
+
+    <script src="https://kit.fontawesome.com/6adb5ac876.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="css/a.css">
+
+    <style>
+
+/* Timeline */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+}
+.timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #a83279;
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 100%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid #fff;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar container py-0 bg-white" role="banner">
+
+      
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+           <a href="http://www.hcmut.edu.vn/vi"><img src="images/logo.png" width="60px" height="60px"></a> 
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Bài báo cáo</a></li>
+                <li><a href="thanhvien.html">Thành viên</a></li>
+                <li><a href="tailieuthamkhao.html">Tài liệu tham khảo</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-auto py-3 col-6 text-right" style="position: relative; top: 3px;">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+      
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(images/android_back_ground.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-12">
+            
+            
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-8 text-center">
+                <h1 class="" data-aos="fade-up">HỆ ĐIỀU HÀNH</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Android</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="site-section bg-light">
+      <div class="container">
+        
+        <div class="overlap-category mb-5">
+          <div class="row align-items-stretch no-gutters">
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="gioithieu.html" class="popular-category h-100">
+                <i class="fas fa-chalkboard-teacher" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Giới thiệu</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="suphattrien.html" class="popular-category h-100">
+                <i class="fas fa-chart-line" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Sự phát triển của hệ điều hành</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="cachedieuhanhphobien.html" class="popular-category h-100">
+                <i class="fas fa-fire" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Các hệ điều hành phổ biến</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="nhanxetvadanhgia.html" class="popular-category h-100">
+                <i class="fas fa-user-friends" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Nhận xét &amp; Đánh giá</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="images/android7.jpg" alt="Image" class="img-fluid rounded">
+            </div>
+            <div class="col-md-5 ml-auto ">
+              <h2 class="text-primary mb-3">Giới thiệu về hệ điều hành Android</h2>
+              <br>
+              <p><b>Android</b> là một hệ điều hành có mã nguồn mở dựa trên nền tảng Linux được thiết kế dành cho các thiết bị di động có màn hình cảm ứng như điện thoại thông minh và máy tính bảng.</p>	
+              <p>Ban đầu, Android được phát triển bởi Tổng công ty Android, với sự hỗ trợ tài chính từ Google, sau này được chính Google mua lại vào năm 2005 và hệ điều hành Android đã ra mắt vào năm 2007. Chiếc điện thoại đầu tiên chạy Android là HTC Dream được bán vào ngày 22 tháng 10 năm 2008.</p>
+              <p>Chính mã nguồn mở cùng với giấy phép không có nhiều ràng buộc đã cho phép các nhà phát triển thiết bị, mạng di động và các lập trình viên được điều chỉnh và phân phối Android một cách tự do. Những yếu tố này đã giúp Android trở thành nền tảng điện thoại thông minh phổ biến nhất thế giới. Android chiếm 75% thị phần điện thoại thông minh trên toàn thế giới vào thời điểm quý 3 năm 2012, với tổng cộng 500 triệu thiết bị đã được kích hoạt và 1,3 triệu lượt kích hoạt mỗi ngày. Tháng 10 năm 2012, đã có khoảng 700.000 ứng dụng trên Android, và số lượt tải ứng dụng từ Google Play (cửa hàng ứng dụng chính của Android) ước tính khoảng 25 tỷ lượt. Hiện nay con số này đã giảm xuống do sự ảnh hưởng lớn của iOS từ Apple và một phần nhỏ của Windows Phone, tuy nhiên Android vẫn dẫn đầu thị phần.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+        
+
+        
+    <div class="site-section bg-white">
+      <div class="container">
+        <h2 class="text-primary mb-3">Sự phát triển của hệ điều hành Android</h2>
+        <br>
+        <!--Time line-->
+        <ul class="timeline">
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">23/9/2008</p>
+                <h3>Android 1.0</h3>
+                <img src="images/android1.jpg" width="300px" height="200px">
+                <br>
+                <p>Lần đầu xuất hiện, phiên bản Android đời đầu góp mặt trên chiếc điện thoại J1 của nhà mạng T-Mobile. So với những hệ điều hành di động phổ biến thời điểm đó, Android 1.0 đem đến nhiều trải nghiệm mới mẻ độc đáo như màn hình Home Screen, thanh thông báo Notifications được kích hoạt theo phương thức vuốt dọc màn hình theo chiều từ trên xuống.</p>
+                <p>Ngoài ra, giới công nghệ còn hết sức ấn tượng với khả năng liên kết với Google Gmail của Android 1.0. Sản phẩm làm nên tên tuổi cho Android sau đó là HTC Cream, ra mắt 1 năm sau đó.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">27/4/2009</p>
+                <h3>Android 1.5</h3>
+                <h4>Cup Cake</h4>
+                <img src="images/android1.5.jpeg" width="300px" height="200px">
+                <br>
+                <p>Rút kinh nghiệm từ Android 1.0, trên phiên bản Android 1.5 này, Google đã đem tới nhiều cải tiến đáng chú ý như việc cải tiến giao diện người sử dụng, hỗ trợ bàn phím ảo và dự đoán từ khi nhập văn bản. Một điều thú vị về Android 1.5 là kể từ phiên bản này, ban lãnh đạo Google bắt đầu đặt tên cho hệ điều hành theo các loại bánh kẹo, bắt đầu từ Cup Cake.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">26/10/2009</p>
+                <h3>Android 2.0 và Android 2.1</h3>
+                <h4>Eclair</h4>
+                <img src="images/android2.jpg" width="300px" height="200px">
+                <br>
+                 <p>Phiên bản 3.0. Đây được xem là hệ điều hành có nhiều cải tiến đáng kể và thoát hoàn toàn khỏi cái bóng của MS-DOS. Chính vì điều đó, hệ điều hành này đã trở thành phiên bản phổ biến đầu tiên của hệ điều hành này.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">20/5/2010</p>
+                <h3>Android 2.2</h3>
+                <h4>Froyo</h4>
+                <img src="images/android2.2.jpg" width="300px" height="200px">
+                <br>
+                 <p>Tới phiên bản 2.2 Froyo, gã khổng lồ phần mềm tiếp tục cập nhật một số tính năng điểm nhấn như Wi-Fi Hotspot, cho phép người dùng cài đặt trực tiếp ứng dụng vào thẻ nhớ ngoài của thiết bị. Điều đáng nhắc tới là từ Froyo, Google bắt đầu chú trọng tới việc xây dựng giao diện của Android để tăng tính thẩm mĩ.</p>
+              </div>
+            </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">6/12/2010</p>
+              <h3>Android 2.3</h3>
+              <h4>Gingerbread</h4>
+              <img src="images/android2.3.jpg" width="300px" height="200px">
+              <br>
+               <p>Tính tới thời điển phiên bản Gingerbread xuất hiện, hệ điều hành Android đã chứng minh được sức hút không thể cưỡng lại khi đã phủ sóng tới 54% số lượng thiết bị di động trên thị trường. Cũng trong năm này, Samsung bắt tay với Google để tung ra chiếc điện thoại Nexus S. Ưu thế của Android 2.3 nằm ở việc hệ điều hành này cho phép hỗ trợ camera trước, đi kèm với giao diện đẹp mắt và giúp tiết kiệm điện.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">16/12/2011</p>
+              <h3>Android 4.0</h3>
+              <h4>Ice Cream Sandwich</h4>
+              <img src="images/android2.4.jpg" width="300px" height="200px">
+              <br>
+               <p>Bước vào cuối năm 2011, Google bắt đầu tung ra thị trường mẫu điện thoại Galaxy Nexus chạy hệ điều hành Android 4.0 Ice Cream Sandwich. Nhiều chuyên gia đánh giá đây là phiên bản chứa đựng nhiều sự thay đổi mạnh mẽ nhất qua các thế hệ Android. Trên bản 4.0 này, Google đã làm mới hoàn toàn hệ thống thông báo Notification sao cho tiện dụng và đẹp mắt hết sức có thể, đặc biệt là việc cho phép người dùng trượt ngón tay để xóa các thông báo. Công cụ bàn phím cũng được tinh chỉnh khả năng sửa lỗi tự động cũng như thao tác sao chép và dán nội dung. Đáng nói nhất là việc Google quyết định thống nhất một hệ điều hành duy nhất cho cả smartphone và tablet.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">25/7/2013</p>
+              <h3>Android 4.3</h3>
+              <h4>Jelly Bean</h4>
+              <img src="images/android4.3.jpg" width="300px" height="200px">
+              <br>
+               <p>Nhân dịp ra mắt sản phẩm Nexus 7, Google giới thiệu tới mọi người phiên bản Android 4.3 Jelly Bean cùng hàng loạt các tính năng mới như API OpenGL ES 3.0, Bluetooth smart và khả năng định vị bằng Wi-Fi. Đồng thời, hãng cũng hoàn thiện khả năng tương tác giữa nhiều tài khoản và cấp quyền cho cha mẹ để đề phòng trẻ em mua sắm app tốn hàng trăm USD.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">25/6/2014</p>
+              <h3>Android 5.0</h3>
+              <h4>Lollipop</h4>
+              <img src="images/5.0.jpg" width="350px" height="200px">
+              <br>
+               <p>Có những cải tiến đáng kể nhằm tiết kiệm pin tối đa cho điện thoại, tích hợp ứng dụng sâu hơn vào hệ thống, đồng bộ hóa mọi thiết bị.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+            <img src="images/uudiemandroid.jpg" alt="Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-5 mr-auto order-md-1">
+            <h2 class="text-primary mb-3">Ưu điểm</h2>
+            <p>
+              <ul>
+                  <li><p>Là hệ điều hành có mã nguồn mở nên khả năng tuỳ biến cao, có thể tùy ý chỉnh sửa mà không có sự can thiệp hay cấm cản từ Google.</p></li>
+                  <li><p>Đa dạng sản phẩm, rất nhiều hãng điện thoại, thiết bị công nghệ đã ưu ái chọn Android cho thiết bị của họ, giá cả thì hợp lý từ bình dân đến cao cấp.</p></li>
+                  <li><p>Kho ứng dụng Google Play Store đồ sộ.</p></li>
+                  <li><p>Thân thiện và dễ sử dụng.</p></li>
+                  <li><p>Khả năng đa nhiệm, chạy cùng lúc nhiều ứng dụng cao.</p></li>
+              </ul>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="site-section bg-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+            <img src="images/nhuocdiemandroid.jpg" alt="Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-5 mr-auto order-md-1">
+            <h2 class="text-primary mb-3">Nhược điểm</h2>
+            <p>
+              Dễ nhiễm phần mềm độc hại và virus. Do tính chất mã nguồn mở, nhiều phần mềm không được kiểm soát có chất lượng không tốt hoặc lỗi bảo mật vẫn được sử dụng.
+            </p>
+            <p>Kho ứng dụng quá nhiều dẫn đến khó kiểm soát chất lượng, thiếu các ứng dụng thật sự tốt.</p>
+            <p>Sự phân mảnh lớn. Trong khi một số thiết bị Android xuất sắc đã trình làng như <i>Galaxy S5</i>, <i>Galaxy Note 4</i>, <i>Xperia Z3,…</i> vẫn còn rất nhiều sản phẩm giá rẻ bình thường khác.</p>
+           <p>Cập nhật không tự động với tất cả thiết bị. Khi một phiên bản hệ điều hành mới ra mắt, không phải tất cả sản phẩm đều được cập nhật, thậm chí nếu muốn trải nghiệm bạn thường xuyên phải mua mới thiết bị.</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/rangeslider.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+  <footer>
+    <div class="line">
+      <div class="col">
+        <p><b>Contact me:</b> phong.to19102001@hcmut.edu.vn</p>
+      </div>
+      <div class="col">
+        <div class="wrap">
+          <div class="wrap_text">
+            <p><b>Follow me</b></p>
+          </div>
+          <div class="icon">
+            <div class="wrap_icon">
+              <a href="https://www.facebook.com/Hyperwindy" target="blank"><i class="icon-facebook"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://twitter.com/hyper_windy" target="blank"><i class="icon-twitter"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://www.instagram.com/hyper_windy" target="blank"><i class="icon-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line_s">
+      <div class="col_s">
+        <p id="copyright">Copyright &copy; 2019. All rights reserved | This website is made by Thanh Phong</p>
+      </div>
+    </div>
+  </footer>
+</html>

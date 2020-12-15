@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Lớp L07 - Đề tài 15</title>
+    <meta charset="utf-8">
+    <meta name="author" content="#tothanhphong">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/543px-Logo-hcmut.svg.png">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/rangeslider.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/font.css">
+
+    <script src="https://kit.fontawesome.com/6adb5ac876.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/footer.css">
+
+
+    <link rel="stylesheet" href="css/a.css">
+
+    <style>
+
+/* Timeline */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+}
+.timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #a83279;
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 100%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid #f8f9fa;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar container py-0 bg-white" role="banner">
+
+      
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <a href="http://www.hcmut.edu.vn/vi"><img src="images/logo.png" width="60px" height="60px"></a>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Bài báo cáo</a></li>
+                <li><a href="thanhvien.html">Thành viên</a></li>
+                <li><a href="tailieuthamkhao.html">Tài liệu tham khảo</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-auto py-3 col-6 text-right" style="position: relative; top: 3px;">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+      
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(images/back_ground_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-12">
+            
+            
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-8 text-center">
+                <h1 class="" data-aos="fade-up">HỆ ĐIỀU HÀNH</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Sự phát triển của hệ điều hành</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="site-section bg-light">
+      <div class="container">
+        
+        <div class="overlap-category mb-5">
+          <div class="row align-items-stretch no-gutters">
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="gioithieu.html" class="popular-category h-100">
+                <i class="fas fa-chalkboard-teacher" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Giới thiệu</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="suphattrien.html" class="popular-category h-100">
+                <i class="fas fa-chart-line" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Sự phát triển của hệ điều hành</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="cachedieuhanhphobien.html" class="popular-category h-100">
+                <i class="fas fa-fire" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Các hệ điều hành phổ biến</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="nhanxetvadanhgia.html" class="popular-category h-100">
+                <i class="fas fa-user-friends" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Nhận xét &amp; Đánh giá</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        
+        
+
+      <div class="site-section bg-light">
+        <div class="container">
+          <h2 class="text-primary mb-3">Bối cảnh lịch sử</h2>
+          <br>
+            <p>Các máy tính đầu tiên là máy tính lớn không có bất kỳ hình thức hệ điều hành nào. Mỗi người dùng chỉ sử dụng máy trong một khoảng thời gian theo lịch trình và sau đó đến máy tính có chương trình và dữ liệu, thường là trên bìa đục lỗ và băng từ hoặc băng giấy. Chương trình sẽ được tải vào máy và máy sẽ được thiết lập để hoạt động cho đến khi chương trình hoàn thành hoặc gặp sự cố. Các chương trình thường có thể được gỡ lỗi thông qua bảng điều khiển bằng cách sử dụng quay số, chuyển đổi công tắc và đèn bảng.</p>
+            <p>Các ngôn ngữ tượng trưng, hợp ngữ và trình biên dịch đã được phát triển giúp cho các lập trình viên dịch mã chương trình tượng trưng thành mã máy vốn trước đây được mã hóa bằng tay. Các máy sau này đi kèm với các thư viện mã hỗ trợ trên bìa đục lỗ hoặc băng từ, sẽ được liên kết với chương trình của người dùng để hỗ trợ các hoạt động như vào/ra. Đây là nguồn gốc của hệ điều hành hiện đại; tuy nhiên, máy móc vẫn chạy một công việc duy nhất tại một thời điểm. Tại Đại học Cambridge ở Anh hàng đợi công việc đã có thời điểm phải dùng một dây phơi trên đó các băng được treo với các chốt quần áo có màu khác nhau để biểu thị mức độ ưu tiên công việc.</p>
+            <p>Khi máy móc trở nên mạnh mẽ hơn, thời gian để chạy các chương trình giảm dần và thời gian để trao thiết bị cho người dùng tiếp theo trở nên lớn hơn bằng cách so sánh. Ghi chép và thanh toán cho việc sử dụng máy được chuyển từ kiểm tra đồng hồ treo tường sang đăng nhập tự động bằng máy tính. Chạy hàng đợi phát triển từ một hàng người theo nghĩa đen ở cửa, đến rất nhiều phương tiện trên bàn chờ việc, hoặc hàng loạt thẻ đục lỗ xếp chồng lên nhau trên đầu đọc, cho đến khi chính máy có thể chọn và sắp xếp các ổ băng từ nào xử lý băng nào. Khi các nhà phát triển chương trình ban đầu có quyền truy cập để chạy các công việc của riêng họ trên máy, họ được thay thế bởi các nhà khai thác máy chuyên dụng chăm sóc máy và ngày càng ít quan tâm đến việc thực hiện các tác vụ theo cách thủ công.Khi các trung tâm máy tính có sẵn trên thị trường phải đối mặt với hệ lụy của dữ liệu bị mất do giả mạo hoặc lỗi vận hành, các nhà cung cấp thiết bị đã chịu áp lực phải tăng cường các thư viện thời gian chạy để ngăn chặn việc lạm dụng tài nguyên hệ thống. Giám sát tự động là cần thiết không chỉ cho việc sử dụng CPU mà còn để đếm các trang được in, thẻ đục lỗ, đọc thẻ, lưu trữ đĩa được sử dụng và để báo hiệu khi cần có sự can thiệp của nhà điều hành các công việc như thay đổi băng từ và mẫu giấy. Các tính năng bảo mật đã được thêm vào hệ điều hành để ghi lại các đoạn kiểm toán trong đó các chương trình đang truy cập vào file nào và để ngăn truy cập vào file biên chế sản xuất bởi một chương trình kỹ thuật chẳng hạn.</p>
+            <p>Tất cả các tính năng này được xây dựng theo hướng một hệ điều hành có khả năng đầy đủ. Cuối cùng, các thư viện thời gian chạy đã trở thành một chương trình hợp nhất được khởi động trước công việc của khách hàng đầu tiên và có thể đọc công việc của khách hàng, kiểm soát việc thực hiện, ghi lại việc sử dụng nó, gán lại tài nguyên phần cứng sau khi công việc kết thúc và ngay lập tức xử lý công việc tiếp theo. Các chương trình nền thường trú này, có khả năng quản lý các quy trình nhiều bước, thường được gọi là giám sát hoặc giám sát chương trình trước khi thuật ngữ <i>hệ điều hành</i> được hình thành.</p>
+            <p>Một chương trình cơ bản cung cấp quản lý phần cứng cơ bản, lập lịch phần mềm và giám sát tài nguyên có vẻ như là tổ tiên từ xa đối với các hệ điều hành hướng người dùng trong kỷ nguyên máy tính cá nhân. Nhưng đã có một sự thay đổi trong ý nghĩa của hệ điều hành. Ngay khi những chiếc ô tô đời đầu thiếu đồng hồ tốc độ, radio và điều hòa không khí mà sau này trở thành tiêu chuẩn, ngày càng có nhiều tính năng phần mềm tùy chọn trở thành tính năng tiêu chuẩn trong mọi gói hệ điều hành, mặc dù một số ứng dụng như hệ thống quản lý cơ sở dữ liệu và bảng tính vẫn có giá tùy chọn và riêng biệt. Điều này đã dẫn đến nhận thức về một hệ điều hành như một hệ thống người dùng hoàn chỉnh với giao diện người dùng đồ họa tích hợp, các tiện ích, một số ứng dụng như trình soạn thảo văn bản và trình quản lý file và các công cụ cấu hình.</p>
+            <p>Hậu duệ thực sự của các hệ điều hành ban đầu là cái mà ngày nay được gọi là <i>Kernel</i>. Trong giới kỹ thuật và phát triển, ý thức hạn chế cũ của hệ điều hành vẫn tồn tại do sự phát triển tích cực của các hệ điều hành nhúng cho tất cả các loại thiết bị có thành phần xử lý dữ liệu, từ các thiết bị cầm tay cho đến robot công nghiệp và điều khiển thời gian thực - các hệ thống không chạy ứng dụng người dùng ở mặt trước. Một hệ điều hành nhúng trong một thiết bị ngày nay không còn bị loại bỏ như người ta có thể nghĩ từ tổ tiên của những năm 1950.</p>
+        <center><img src="images/b.jpg"></center>
+        <br>
+        <center><i>Chiếc máy tính đầu tiên trên thế giới không hề sử dụng hệ điều hành</i></center>
+        </div>
+      </div>
+
+        
+
+    <div class="site-section bg-white">
+      <div class="container">
+        <h2 class="text-primary mb-3">Hệ điều hành đầu tiên – Cột mốc lịch sử</h2>
+        <br>
+        <p>Hệ điều hành đầu tiên được sử dụng cho công việc thực tế là GM-NAA I/O, được sản xuất vào năm 1956 bởi Bộ phận Nghiên cứu của General Motors cho IBM 704 của họ. Hầu hết các hệ điều hành ban đầu khác cho máy tính lớn của IBM cũng được sản xuất bởi khách hàng.</p>
+		<p>Các hệ điều hành ban đầu rất đa dạng, với mỗi nhà cung cấp hoặc khách hàng sản xuất một hoặc nhiều hệ điều hành dành riêng cho máy tính lớn của họ. Mỗi hệ điều hành, thậm chí từ cùng một nhà cung cấp, có thể có các mô hình lệnh, quy trình vận hành khác nhau và các phương tiện như các công cụ gỡ lỗi. Thông thường, mỗi lần nhà sản xuất đưa ra một máy mới, sẽ có một hệ điều hành mới và hầu hết các ứng dụng sẽ phải được điều chỉnh thủ công, biên dịch lại và kiểm thử lại.</p>
+            <br>
+            <center><img src="images/c.jpg" ></center>
+			<br>
+			<center><i>Hệ điều hành GM-NAA I/O.</i></center>
+        </div>
+     </div>
+
+    
+     <div class="site-section bg-light">
+        <div class="container">
+          <h2 class="text-primary mb-3">Sự phát triển của hệ điều hành </h2>
+          <br>
+            <!--Time line-->
+            <ul class="timeline">
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">1945 - 1955</p>
+                  <h3>Thế hệ 1</h3>
+                  <ul>
+                    <li>•	 Thiết kế, xây dựng, lập trình, thao tác: do 1 nhóm người.</li>
+                    <li>•	 Lưu trên phiếu độc lỗ.</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">1955 - 1965</p>
+                  <h3>Thế hệ 2</h3>
+                  <img src="images/thehe2.jpg" width="300px" height="200px">
+                  <br>
+                  <ul>
+                    <li>•	Xuất hiện sự phân công công việc.</li>
+                    <li> •	Hệ thống xử lí theo lô ra đời, lưu trên băng từ.</li>
+                    <li> •	Hoạt động dưới sự điều khiển đặc biệt của 1 chương trình.</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">1965 - 1980</p>
+                  <h3>Thế hệ 3 </h3>
+                  <img src="images/thehe3.jpg" width="300px" height="200px">
+                  <br>
+                   <ul>
+                     <li>•	Ra đời hệ điều hành, khái niệm đa chương.</li>
+                      <li>•	Hệ điều hành chia sẻ thời gian như CTSS của MIT.</li>
+                      <li>•	MULTICS, UNIX.</li>
+                   </ul>
+                </div>
+              </li>
+              <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <p class="timeline-event-thumbnail">1980</p>
+                  <h3>Thế hệ 4 </h3>
+                  <img src="images/thehe4.jpg" width="300px" height="200px">
+                  <br>
+                   <ul>
+                     <li>•	Ra đời máy tính cá nhân, IBM PC.</li>
+                      <li>•	Hệ điều hành MS-DOS, MacOS ( Apple Macintosh), MS Windows, OS/1.</li>
+                      <li>•Linux, QNX, Hệ điều hành mạng,......</li>
+                   </ul>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+            
+          
+          
+        </div>
+      </div>
+      </div>
+    
+   
+  
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/rangeslider.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+  <footer>
+    <div class="line">
+      <div class="col">
+        <p><b>Contact me:</b> phong.to19102001@hcmut.edu.vn</p>
+      </div>
+      <div class="col">
+        <div class="wrap">
+          <div class="wrap_text">
+            <p><b>Follow me</b></p>
+          </div>
+          <div class="icon">
+            <div class="wrap_icon">
+              <a href="https://www.facebook.com/Hyperwindy" target="blank"><i class="icon-facebook"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://twitter.com/hyper_windy" target="blank"><i class="icon-twitter"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://www.instagram.com/hyper_windy" target="blank"><i class="icon-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line_s">
+      <div class="col_s">
+        <p id="copyright">Copyright &copy; 2019. All rights reserved | This website is made by Thanh Phong</p>
+      </div>
+    </div>
+  </footer>
+</html>

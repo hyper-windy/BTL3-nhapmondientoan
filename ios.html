@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Lớp L07 - Đề tài 15</title>
+    <meta charset="utf-8">
+    <meta name="author" content="#tothanhphong">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/543px-Logo-hcmut.svg.png">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/rangeslider.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/font.css">
+
+    <script src="https://kit.fontawesome.com/6adb5ac876.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="css/a.css">
+
+    <style>
+     
+
+/* Timeline */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+}
+.timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #a83279;
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 100%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid #fff;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar container py-0 bg-white" role="banner">
+
+      
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <a href="http://www.hcmut.edu.vn/vi"><img src="images/logo.png" width="60px" height="60px"></a>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Bài báo cáo</a></li>
+                <li><a href="thanhvien.html">Thành viên</a></li>
+                <li><a href="tailieuthamkhao.html">Tài liệu tham khảo</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-auto py-3 col-6 text-right" style="position: relative; top: 3px;">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+      
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(images/ios_back_ground.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-12">
+            
+            
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-8 text-center">
+                <h1 class="" data-aos="fade-up">HỆ ĐIỀU HÀNH</h1>
+                <p data-aos="fade-up" data-aos-delay="100">iOS</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="site-section bg-light">
+      <div class="container">
+        
+        <div class="overlap-category mb-5">
+          <div class="row align-items-stretch no-gutters">
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="gioithieu.html" class="popular-category h-100">
+                <i class="fas fa-chalkboard-teacher" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Giới thiệu</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="suphattrien.html" class="popular-category h-100">
+                <i class="fas fa-chart-line" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Sự phát triển của hệ điều hành</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="cachedieuhanhphobien.html" class="popular-category h-100">
+                <i class="fas fa-fire" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Các hệ điều hành phổ biến</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="nhanxetvadanhgia.html" class="popular-category h-100">
+                <i class="fas fa-user-friends" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Nhận xét &amp; Đánh giá</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="images/ios7.png" alt="Image" class="img-fluid rounded">
+            </div>
+            <div class="col-md-5 ml-auto ">
+              <h2 class="text-primary mb-3">Giới thiệu về hệ điều hành iOS</h2>
+              <br>
+              <p><b>iOS</b> là một hệ điều hành điện thoại di động được phát triển bởi Apple và phân phối độc quyền cho phần cứng của Apple. Ban đầu, iOS được công bố năm 2007 cho iPhone, sau đó được mở rộng để hỗ trợ các thiết bị khác của Apple như iPod Touch (tháng 9 năm 2007), iPad (tháng 1 năm 2010), iPad Mini (tháng 11 năm 2012) và thế hệ thứ hai của Apple Ttivi trở đi (tháng 9 năm 2010).</p>	
+              <p>Đến cuối năm 2011, iOS chiếm 60% thị phần điện thoại thông minh và máy tính bảng. Cuối năm 2012, iOS chiếm 21% thị phần hệ điều hành điện thoại thông minh trên thị trường và 43,6% thị trường hệ điều hành máy tính bảng. Và đến tháng 6 năm 2014, App Store của Apple chứa hơn 1.200.000 ứng dụng iOS, và được tải về hơn 60 tỷ lần.</p>
+              <p>Giao diện người dùng của iOS được dựa trên khái niệm về thao tác trực tiếp bằng tay, sử dụng các cử chỉ đa cảm ứng. Các yếu tố giao diện điều khiển bao gồm các thanh trượt, công tắc, và các nút. Tương tác với các hệ điều hành bao gồm các cử chỉ như chạm, trượt, vuốt.</p>
+              <p>Phiên bản mới của iOS được phát hành hàng năm. Bản mới nhất hiện tại là iOS 8.1.2, được phát hành vào ngày 09/12/2014.</p> 
+              <p>Một đặc trưng của hệ điều hành iOS đó là Apple hạn chế việc cài ứng dụng từ bên thứ ba (ngoài AppStore) vào thiết bị, việc này có thể khiến iPhone của bạn mắc phải một số lỗi và không còn mượt mà nữa.</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  
+        
+
+        
+    <div class="site-section bg-white">
+      <div class="container">
+        <h2 class="text-primary mb-3">Sự phát triển của hệ điều hành iOS</h2>
+        <br>
+        <!--Time line-->
+        <ul class="timeline">
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">29/6/2007</p>
+                <h3>iPhone OS 1</h3>
+                <img src="images/ios1.jpg" width="300px" height="200px">
+                <br>
+                <p>Được sử dụng trong iPhone thế hệ đầu tiên và iPod thế hệ đầu tiên.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">11/7/2008</p>
+                <h3>iPhone OS 2</h3>
+                <img src="images/ios2.jpg" width="300px" height="200px">
+                <br>
+                <p>Được sử dụng trong thế hệ đầu tiên iPhone và iPhone 3G, iPod thế hệ 1 và thế hệ thứ hai, có iTunes Store và App Store và các ứng dụng khác</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">17/6/2009</p>
+                <h3>iPhone OS 3</h3>
+                <img src="images/ios3.jpg" width="300px" height="200px">
+                <br>
+                 <p>Được sử dụng cho iPhone 1, 3G, 3GS và được thêm vào thế hệ iPad và iPod 1 ~ 3 thế hệ đầu tiên, hệ thống đã thêm các chức năng như cắt, sao chép và dán.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">17/6/2010</p>
+                <h3>iOS 4</h3>
+                <img src="images/ios4.jpg" width="300px" height="200px">
+                <br>
+                 <p>iPhone 3G, 3GS, 4, iPad 1 ~ 2, iPod 1 ~ 4, có thêm FaceTime và GameCenter và các ứng dụng khác.</p>
+              </div>
+            </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">12/10/2011</p>
+              <h3>iOS 5</h3>
+              <img src="images/ios5.jpg" width="300px" height="200px">
+              <br>
+               <p>Được sử dụng cho iPhone 3GS, 4, 4S, iPad 1 ~ 3, iPod 3 ~ 4, hệ thống kết hợp với trợ lý Siri và các chức năng khác.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">19/9/2012</p>
+              <h3>iOS 6</h3>
+              <img src="images/ios6.jpg" width="300px" height="200px">
+              <br>
+               <p>Được sử dụng cho iPhone 3GS, 4, 4S, 5, iPad 2 ~ 4 thế hệ iPad Mini , iPod 4 ~ 5, hệ thống có thêm Apple Maps và các ứng dụng khác.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">18/9/2013</p>
+              <h3>iOS 7</h3>
+              <img src="images/ios7.1.jpg" width="300px" height="200px">
+              <br>
+               <p>Được sử dụng trên iPhone 4, 4S, 5, 5C, 5S, iPad 2 ~ 4 thế hệ Air iPad Mini 1 ~ 2. Hệ thống này được lập trình và thêm vào giao diện người dùng của trung tâm điều khiển và các chức năng như CarPlay.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">17/9/2014</p>
+              <h3>iOS 8</h3>
+              <img src="images/ios8.jpg" width="300px" height="200px">
+              <br>
+               <p>Dành cho iPhone 4S, 5, 5C, 5S, 6, iPad 2 ~ 4 thế hệ Air 1 ~ 2 thế hệ Mini 1 ~ 3 thế hệ, iPod 5 ~ 6, có thêm Apple Music, sức khỏe và các ứng dụng khác.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">16/9/2015</p>
+              <h3>iOS 9</h3>
+              <img src="images/ios9.jpg" width="300px" height="200px">
+              <br>
+               <p>Dành cho iPhone 4S, 5, 5C, 5S, 6, 6S, iPad 2 ~ 4 thế hệ Air 1 ~ 2 thế hệ Pro 1 thế hệ Mini 1 ~ 3 thế hệ, iPod 5 ~ 6, hệ thống tiết kiệm pin, ví, 3D Các tính năng mới như Touch.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">13/9/2016</p>
+              <h3>iOS 10</h3>
+              <img src="images/ios10.jpg" width="300px" height="200px">
+              <br>
+               <p>Được sử dụng trên iPhone 5, 5C, 5S, 6, 6S, 7, iPad 4 ~ 5, Air 1 ~ 2, Pro 1 ~ 2, Mini 2 ~ 4, thế hệ iPod 6, hệ thống đã thêm HOME APP, trang thời tiết Và các chức năng khác.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">19/9/2017</p>
+              <h3>iOS 11</h3>
+              <img src="images/ios11.jpg" width="300px" height="200px">
+              <br>
+               <p>Đối với iPhone 5S, SE, 6, 6S, 7, 8, X, iPad 5 ~ 6 thế hệ Air 1 ~ 2 thế hệ Pro 1 ~ 2 thế hệ Mini 2 ~ 4, iPod 6, hệ thống âm thanh Siri mới, tín hiệu SOS và các chức năng khác.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">17/9/2018</p>
+              <h3>iOS 12</h3>
+              <img src="images/ios12.jpg" width="300px" height="200px">
+              <br>
+               <p>Dành cho iPhone 5S, SE, 6, 6S, 7, 8, X, XS, XR, iPad 5 ~ 6 thế hệ Air 1 ~ 2 thế hệ Pro 1 ~ 2 thế hệ Mini 2 ~ 4, iPod 6, sử dụng Bộ xử lý, hiệu năng hệ thống nhanh hơn.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+            <img src="images/uudiemiOS.jpg" alt="Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-5 mr-auto order-md-1">
+            <h2 class="text-primary mb-3">Ưu điểm</h2>
+            <p>
+              <ul>
+                  <li><p><b>iOS</b> là một hệ điều hành với độ ổn định cao, mượt mà qua thời gian dài.</p></li>
+                  <li><p>Là hệ điều hành có độ bảo mật và tin cậy cao nhất hiện nay.</p></li>
+                  <li><p>Hệ điều hành được cập nhật đều đặn hàng năm, bạn được quyền lựa chọn update hoặc không. Ngoài khi cập nhật iOS bản mới, tất cả các thiết bị iOS đều được phép cập nhật lên bản cao nhất và không bị giới hạn.</p></li>
+                  <li><p>Kho ứng dụng phong phú và được kiểm duyệt nghiêm ngặt, không có ứng dụng lừa đảo, ứng dụng rác.</p></li>
+                  <li><p>Đơn giản, dễ sử dụng cho người mới.</p></li>
+                  <li><p>Có khả năng đồng bộ tốt giữa các thiết bị iOS với nhau.</p></li>
+              </ul>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="site-section bg-white">
+        <div class="container">
+          <h2 class="text-primary mb-3">Nhược điểm</h2>
+          <br>
+          <p>
+            iOS hiện chỉ được tích hợp trên các thiết bị của Apple, tuy nhiên giá các sản phẩm Apple thì không hề rẻ.
+          </p>
+          <p>Việc trao đổi dữ liệu như chép tập tin, hình ảnh, video, v.v… đều phải sử dụng phần mềm iTunes, khá bất tiện cho người mới.</p>
+          <p>Hạn chế khả năng tùy chỉnh.</p>
+        </div>
+        </div>
+      </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/rangeslider.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+  <footer>
+    <div class="line">
+      <div class="col">
+        <p><b>Contact me:</b> phong.to19102001@hcmut.edu.vn</p>
+      </div>
+      <div class="col">
+        <div class="wrap">
+          <div class="wrap_text">
+            <p><b>Follow me</b></p>
+          </div>
+          <div class="icon">
+            <div class="wrap_icon">
+              <a href="https://www.facebook.com/Hyperwindy" target="blank"><i class="icon-facebook"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://twitter.com/hyper_windy" target="blank"><i class="icon-twitter"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://www.instagram.com/hyper_windy" target="blank"><i class="icon-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line_s">
+      <div class="col_s">
+        <p id="copyright">Copyright &copy; 2019. All rights reserved | This website is made by Thanh Phong</p>
+      </div>
+    </div>
+  </footer>
+</html>

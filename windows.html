@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Lớp L07 - Đề tài 15</title>
+    <meta charset="utf-8">
+    <meta name="author" content="#tothanhphong">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/543px-Logo-hcmut.svg.png">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/rangeslider.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/font.css">
+
+    <script src="https://kit.fontawesome.com/6adb5ac876.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="css/a.css">
+
+    <style>
+
+/* Timeline */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+}
+.timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #a83279;
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 100%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid #fff;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar container py-0 bg-white" role="banner">
+
+      
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <a href="http://www.hcmut.edu.vn/vi"><img src="images/logo.png" width="60px" height="60px"></a>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Bài báo cáo</a></li>
+                <li><a href="thanhvien.html">Thành viên</a></li>
+                <li><a href="tailieuthamkhao.html">Tài liệu tham khảo</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-auto py-3 col-6 text-right" style="position: relative; top: 3px;">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+      
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(images/windows_back_ground.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-12">
+            
+            
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-8 text-center">
+                <h1 class="" data-aos="fade-up">HỆ ĐIỀU HÀNH</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Windows</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="site-section bg-light">
+      <div class="container">
+        
+        <div class="overlap-category mb-5">
+          <div class="row align-items-stretch no-gutters">
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="gioithieu.html" class="popular-category h-100">
+                <i class="fas fa-chalkboard-teacher" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Giới thiệu</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="suphattrien.html" class="popular-category h-100">
+                <i class="fas fa-chart-line" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Sự phát triển của hệ điều hành</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="cachedieuhanhphobien.html" class="popular-category h-100">
+                <i class="fas fa-fire" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Các hệ điều hành phổ biến</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="nhanxetvadanhgia.html" class="popular-category h-100">
+                <i class="fas fa-user-friends" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Nhận xét &amp; Đánh giá</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="images/windows1.png" alt="Image" class="img-fluid rounded">
+            </div>
+            <div class="col-md-5 ml-auto ">
+              <h2 class="text-primary mb-3">Giới thiệu về hệ điều hành Windows</h2>
+              <br>
+              <p><b>Microsoft Windows</b> (hoặc đơn giản là Windows) là tên của một họ hệ điều hành dựa trên giao diện người dùng đồ hoạ được phát triển và được phân phối bởi Microsoft. Nó bao gồm một vài các dòng hệ điều hành, mỗi trong số đó phục vụ một phần nhất định của ngành công nghiệp máy tính.</p>	
+              <p>Microsoft chọn tên Windows để đặt tên cho hệ điều hành máy tính huyền thoại của mình vì những nội dung của hệ điều hành hiển thị  trên màn hình trong những cửa sổ (window) khác nhau.</p>
+              <p>Giao diện của những hệ điều hành ban đầu cực kì đơn giản, tương tác với người dùng chủ yếu qua các dòng lệnh đơn thuần. Những phiên bản gần đây đã có sự cải thiện rõ nét: giao diện tương tác người dùng đồ họa đã bắt đầu phát triển.</p>
+             </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+        
+
+        
+    <div class="site-section bg-white">
+      <div class="container">
+        <h2 class="text-primary mb-3">Sự phát triển của hệ điều hành Windows</h2>
+        <br>
+        <!--Time line-->
+        <ul class="timeline">
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1985</p>
+                <h3>Windows 1.0</h3>
+                <img src="images/windows1.0.jpg" width="300px" height="200px">
+                <br>
+                <p>Thực tế, đây chỉ là một phiên bản của MS-DOS được trang bị thêm giao diện người sử dụng.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1987</p>
+                <h3>Windows 2.0</h3>
+                <img src="images/windows2.0.png" width="300px" height="200px">
+                <br>
+                <p>Phiên bản 2.0 là hệ điều hành đầu tiên được trang bị thêm ứng dụng văn phòng Word và Excel.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1990</p>
+                <h3>Windows 3.0</h3>
+                <img src="images/windows3.0.jpg" width="300px" height="200px">
+                <br>
+                 <p>Phiên bản 3.0. Đây được xem là hệ điều hành có nhiều cải tiến đáng kể và thoát hoàn toàn khỏi cái bóng của MS-DOS. Chính vì điều đó, hệ điều hành này đã trở thành phiên bản phổ biến đầu tiên của hệ điều hành này.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1992</p>
+                <h3>Windows 3.1</h3>
+                <img src="images/windows3.1.jpg" width="300px" height="200px">
+                <br>
+                 <p>Windows 3.1 không chỉ chỉnh sửa các lỗi cần thiết mà còn là phiên bản đầu tiên mà Windows hiển thị các font TrueType, bộ bảo vệ màn hình (screensaver) và hoạt động kéo và thả.</p>
+              </div>
+            </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">1993</p>
+              <h3>Windows NT</h3>
+              <img src="images/windowsNT.jpg" width="300px" height="200px">
+                <br>
+               <p>Một sản phẩm kế tiếp dành cho khối doanh nghiệp của Windows là Windows NT (NT là viết tắt của cụm từ New Technology). Phiên bản năm 1993 là  một hệ điều hành 32-bit đúng nghĩa được thiết kế cho các tổ chức có kết nối mạng. </p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">1995</p>
+              <h3>Windows 95</h3>
+              <img src="images/windows95.jpg" width="300px" height="200px">
+              <br>
+               <p>Là phiên bản đầu tiên của Windows có sử dụng nút Start và menu Start, Windows 95 có Taskbar, các shortcut trên desktop, kích phải chuột và các tên file dài, nhất là trình duyệt web Internet Explorer của Microsoft. IE 1.0.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">1998</p>
+              <h3>Windows 98</h3>
+              <img src="images/windows98.jpg" width="300px" height="200px">
+                <br>
+               <p>Hỗ trợ cho USB, chia sẻ kết nối mạng và hệ thống file FAT32, là những bước tiến đáng giá của Windows 98.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2/2000</p>
+              <h3>Windows 2000</h3>
+              <img src="images/windows2000.jpg" width="300px" height="200px">
+                <br>
+               <p>Với 5 phiên bản khác nhau: Professional, Server, Advanced Server, Datacenter Server và Small Business Server, Windows 2000  kết hợp chặt chẽ các tính năng từ Windows 95/98 để tạo nên một giao diện đẹp mắt và tinh tế.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">6/2000</p>
+              <h3>Windows Me</h3>
+              <img src="images/windowsMe.jpg" width="300px" height="200px">
+                <br>
+               <p>Windows Me đã nâng cấp các tính năng Internet và multimedia của Windows 98, bổ sung thêm ứng dụng Windows Movie Maker, giới thiệu tiện ích System Restore. Hạn chế của Windows Me là hệ thống dễ bị treo.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2001</p>
+              <h3>Windows XP</h3>
+              <img src="images/windowsXP.jpg" width="300px" height="200px">
+                <br>
+               <p>XP là sự giao thoa tốt nhất giữa các phiên bản Windows 95/98/Me với thao tác 32-bit của Windows NT/2000 và giao diện người dùng được tân trang lại.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2007</p>
+              <h3>Windows Vista</h3>
+              <img src="images/windowsvista.jpg" width="300px" height="200px">
+                <br>
+               <p>Phiên bản Windows Vista đã phát triển các tính năng của XP. Đồng thời, Windows Vista cũng bổ sung thêm sự bảo mật, độ tin cậy, chức năng truyền thông số được cải thiện và giao diện đồ họa người dùng Aero 3D đẹp mắt.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2009</p>
+              <h3>Windows 7</h3>
+              <img src="images/windows7.jpg" width="300px" height="200px">
+                <br>
+               <p>Cải thiện những hạn chế trong Windows Vista, Windows 7 chinh phục người dùng với những tính năng vượt trội trong User Account Control, taskbar, Gadget trực tiếp lên desktop,  chế độ Aero Peek, hoạt động Aero Snaps mới.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2012</p>
+              <h3>Windows 8</h3>
+              <img src="images/windows8.jpg" width="300px" height="200px">
+                <br>
+               <p>Một hệ điều hành lai (hybrid OS), có thể hoạt động tốt trên cả thiết bị cảm ứng và không cảm ứng, bỏ đi nút Start, giao diện người dùng đổi từ Metro sang Modern,...</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2015</p>
+              <h3>Windows 10</h3>
+              <img src="images/windows10.jpg" width="300px" height="200px">
+                <br>
+               <p>Đánh dấu một đỉnh cao mới: lần đầu tiên các thiết bị cảm ứng hay không đều sử dụng chung được với nhau. Giao diện được thay đổi, Windows Title được tích hợp vào trong Menustart,  Settings đặc biệt thay thế Control Pannel là những “điểm cộng” xuất sắc của Windows phiên bản mới nhất này.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+        
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2">
+            <img src="images/uudiemWindows.jpg" alt="Image" class="img-fluid rounded">
+          </div>
+          <div class="col-md-5 mr-auto order-md-1">
+            <h2 class="text-primary mb-3">Ưu điểm</h2>
+            <p>
+              <ul>
+                <li><p><b>Tính tương thích cao:</b> Vốn là một nền tảng chiếm thị phần sử dụng cao nhất hiện nay nên cũng không có gì khó hiểu khi hầu hết các nhà sản xuất đều đầu tư xây dựng phần mềm cũng như sản xuất phần cứng hỗ trợ cho hệ điều hành Windows.</p></li>
+                <li><p><b>Dễ sử dụng:</b> Các phiên bản hệ điều hành Windows tiếp theo luôn được kế thừa những tính năng cơ bản của phiên bản tiền nhiệm, giúp người dùng dễ dàng làm quen và sử dụng.</p></li>
+                <li><p><b>Bảo mật:</b> Dù không bảo mật toàn diện như: Linux, Mac OS … nhưng Microsoft luôn cung cấp cho người dùng những gói nâng cấp và cập nhật miễn phí để tối ưu sự ổn định và khả năng bảo mật của thiết bị.</p></li>
+                <li><p><b>Phong phú ứng dụng:</b> Lượng lớn người dùng Windows luôn thu hút các nhà viết ứng dụng nên so với các hệ điều hành khác, lượng ứng dụng của Windows luôn ở mức phong phú cao hơn.</p></li>
+                <li><p><b>Hỗ trợ tối đa cho màn hình cảm ứng (Windows 8 trở lên):</b> Từ phiên bản Windows 8 trở nên, nền tảng Windows đã được thiết kế để hỗ trợ tốt cho các thiết bị màn hình cảm ứng.</p></li>
+            </ul>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="site-section bg-white">
+        <div class="container">
+          <h2 class="text-primary mb-3">Nhược điểm</h2>
+          <br>
+          <p>
+            Lượng người dùng đông đảo cũng là mục tiêu thu hút sự quan tâm của các tin tặc, hacker,… .Do đó,  các virus, phần mềm gián điệp, mã độc… đều được viết để hoạt động trên nền tảng này.
+          </p>
+         </div>
+        </div>
+      </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/rangeslider.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+  <footer>
+    <div class="line">
+      <div class="col">
+        <p><b>Contact me:</b> phong.to19102001@hcmut.edu.vn</p>
+      </div>
+      <div class="col">
+        <div class="wrap">
+          <div class="wrap_text">
+            <p><b>Follow me</b></p>
+          </div>
+          <div class="icon">
+            <div class="wrap_icon">
+              <a href="https://www.facebook.com/Hyperwindy" target="blank"><i class="icon-facebook"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://twitter.com/hyper_windy" target="blank"><i class="icon-twitter"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://www.instagram.com/hyper_windy" target="blank"><i class="icon-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line_s">
+      <div class="col_s">
+        <p id="copyright">Copyright &copy; 2019. All rights reserved | This website is made by Thanh Phong</p>
+      </div>
+    </div>
+  </footer>
+</html>

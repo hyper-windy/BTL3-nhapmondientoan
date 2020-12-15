@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Lớp L07 - Đề tài 15</title>
+    <meta charset="utf-8">
+    <meta name="author" content="#tothanhphong">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/vi/thumb/c/cd/Logo-hcmut.svg/543px-Logo-hcmut.svg.png">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/rangeslider.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/font.css">
+
+    <script src="https://kit.fontawesome.com/6adb5ac876.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="css/a.css">
+
+    <style>
+ 
+/* Timeline */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+}
+.timeline:before {
+  background-color: black;
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #a83279;
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 100%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid #fff;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar container py-0 bg-white" role="banner">
+
+      
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <a href="http://www.hcmut.edu.vn/vi"><img src="images/logo.png" width="60px" height="60px"></a>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Bài báo cáo</a></li>
+                <li><a href="thanhvien.html">Thành viên</a></li>
+                <li><a href="tailieuthamkhao.html">Tài liệu tham khảo</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="d-inline-block d-xl-none ml-auto py-3 col-6 text-right" style="position: relative; top: 3px;">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+    
+      
+    </header>
+
+  
+
+    <div class="site-blocks-cover overlay" style="background-image: url(images/linux_back_ground.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+
+          <div class="col-md-12">
+            
+            
+            <div class="row justify-content-center mb-4">
+              <div class="col-md-8 text-center">
+                <h1 class="" data-aos="fade-up">HỆ ĐIỀU HÀNH</h1>
+                <p data-aos="fade-up" data-aos-delay="100">Linux</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="site-section bg-light">
+      <div class="container">
+        
+        <div class="overlap-category mb-5">
+          <div class="row align-items-stretch no-gutters">
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="gioithieu.html" class="popular-category h-100">
+                <i class="fas fa-chalkboard-teacher" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Giới thiệu</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="suphattrien.html" class="popular-category h-100">
+                <i class="fas fa-chart-line" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Sự phát triển của hệ điều hành</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="cachedieuhanhphobien.html" class="popular-category h-100">
+                <i class="fas fa-fire" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Các hệ điều hành phổ biến</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4 mb-lg-0 col-lg-3">
+              <a href="nhanxetvadanhgia.html" class="popular-category h-100">
+                <i class="fas fa-user-friends" id="bar_s"></i>
+                <span class="caption mb-2 d-block">Nhận xét &amp; Đánh giá</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="images/linux10.jpg" alt="Image" class="img-fluid rounded">
+            </div>
+            <div class="col-md-5 ml-auto ">
+              <h2 class="text-primary mb-3">Giới thiệu về hệ điều hành Linux</h2>
+              <br>
+              <p><b>Linux</b> là tên gọi của một hệ điều hành máy tính và cũng là tên hạt nhân của hệ điều hành. Nó có lẽ là một ví dụ nổi tiếng nhất của phần mềm tự do và của việc phát triển mã nguồn mở.</p>	
+              <p>Năm 1991, trong khi đang theo học ngành Khoa học máy tính tại Đại học Helsinki, Linus Torvalds đã bắt đầu một dự án mà sau đó trở thành Linux kernel. Ông ấy đã viết chương trình dành riêng cho phần cứng ông đang sử dụng và độc lập với một hệ điều hành vì ông muốn sử dụng các chức năng của PC mới của mình với bộ xử lý 80386. Việc phát triển được thực hiện trên MINIX dùng GNU C Compiler.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+        
+
+        
+    <div class="site-section bg-white">
+      <div class="container">
+        <h2 class="text-primary mb-3">Sự phát triển của hệ điều hành Linux</h2>
+        <br>
+        <!--Time line-->
+        <ul class="timeline">
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1991</p>
+                <p>Hạt nhân Linux được công bố vào ngày 25 tháng 8 bởi sinh viên 21 tuổi người Phần Lan Linus Benedict Torvalds.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1992</p>
+                <p>Hạt nhân Linux được cấp phép lại theo GPL GNU. Các bản phân phối Linux đầu tiên được tạo.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1993</p>
+                 <p>Hơn 100 nhà phát triển làm việc trên nhân Linux. Với sự trợ giúp của họ, hạt nhân được điều chỉnh phù hợp với môi trường GNU, tạo ra một phổ rộng các loại ứng dụng cho Linux. Bản phân phối Linux hiện có (tính đến năm 2018), Slackware, được phát hành lần đầu tiên. Cuối năm đó, dự án Debian được thành lập. Ngày nay nó là phân phối cộng đồng lớn nhất.</p>
+              </div>
+            </li>
+            <li class="timeline-event">
+              <label class="timeline-event-icon"></label>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">1994</p>
+                 <p>Torvalds đánh giá tất cả các thành phần của hạt nhân đã trưởng thành hoàn toàn: ông phát hành phiên bản 1.0 của Linux. Dự án XFree86 đóng góp giao diện người dùng đồ họa (GUI). Các nhà sản xuất phân phối Linux thương mại Red Hat và SUSE xuất bản phiên bản 1.0 của các bản phân phối Linux của họ.</p>
+              </div>
+            </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">1995</p>
+               <p>Linux được port sang DEC Alpha và Sun SPARC. Trong những năm tiếp theo, nó được port đến một số lượng lớn hơn các nền tảng.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">1996</p>
+               <p>Phiên bản 2.0 của nhân Linux được phát hành. Hạt nhân hiện có thể phục vụ một số bộ xử lý cùng một lúc bằng cách sử dụng đa xử lý đối xứng (SMP), và do đó trở thành một sự thay thế quan trọng cho nhiều công ty.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">1998</p>
+               <p>Nhiều công ty lớn như IBM, Compaq và Oracle công bố hỗ trợ cho Linux. The Cathedral and the Bazaar lần đầu tiên được xuất bản dưới dạng một bài tiểu luận (sau này là một cuốn sách), dẫn đến Netscape công khai phát hành mã nguồn cho bộ trình duyệt web Netscape Communicator. Hành động của Netscape và các quan điểm của bài luận[51] đưa mô hình phát triển nguồn mở của Linux đến sự chú ý của các tờ báo kỹ thuật phổ biến.Ngoài ra, một nhóm lập trình viên bắt đầu phát triển giao diện người dùng đồ họa KDE.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">1999</p>
+               <p>Một nhóm các nhà phát triển bắt đầu làm việc trên môi trường đồ họa GNOME, dự định trở thành một sự thay thế miễn phí cho KDE, tại thời điểm đó, phụ thuộc vào bộ công cụ Qt độc quyền. Trong năm, IBM công bố một dự án mở rộng cho sự hỗ trợ của Linux.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2000</p>
+               <p>Dell tuyên bố rằng họ hiện là nhà cung cấp số 2 các hệ thống dựa trên Linux trên toàn thế giới và là nhà sản xuất lớn đầu tiên cung cấp Linux trên toàn bộ dòng sản phẩm của mình.</p>
+            </div>
+          </li>
+        <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2002</p>
+               <p>Các phương tiện truyền thông báo cáo rằng "Microsoft đã giết Dell Linux".</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2004</p>
+               <p>Nhóm XFree86 chia tách và kết hợp với cơ quan tiêu chuẩn X hiện có để tạo thành X.Org Foundation, dẫn đến sự phát triển nhanh hơn đáng kể của máy chủ X cho Linux.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2005</p>
+               <p>Dự án openSUSE bắt đầu phân phối miễn phí từ cộng đồng của Novell. Ngoài ra, dự án OpenOffice.org giới thiệu phiên bản 2.0 sau đó bắt đầu hỗ trợ các tiêu chuẩn OASIS OpenDocument.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2006</p>
+               <p> Oracle phát hành bản phân phối riêng của Red Hat Enterprise Linux. Novell và Microsoft tuyên bố hợp tác để có khả năng tương tác tốt hơn và bảo vệ bằng sáng chế lẫn nhau.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2007</p>
+               <p>Dell bắt đầu phân phối máy tính xách tay với Ubuntu được cài đặt sẵn.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2009</p>
+               <p>Vốn hóa thị trường của Red Hat bằng với Sun, được hiểu là một khoảnh khắc mang tính biểu tượng cho "nền kinh tế dựa trên Linux".</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2011</p>
+               <p>Version 3.0 của Linux kernel được phát hành.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2012</p>
+               <p>Doanh thu thị trường máy chủ Linux tổng hợp vượt quá phần còn lại của thị trường Unix.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2013</p>
+               <p> Android, Hệ điều hành dựa trên Linux của Google chiếm 75% thị phần smartphone, về số lượng điện thoại được xuất xưởng.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2014</p>
+               <p>Ubuntu đạt 22,000,000 người dùng.</p>
+            </div>
+          </li>
+          <li class="timeline-event">
+            <label class="timeline-event-icon"></label>
+            <div class="timeline-event-copy">
+              <p class="timeline-event-thumbnail">2015</p>
+               <p>Phiên bản 4.0 của Linux kernel được phát hành.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+        
+
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <h2 class="text-primary mb-3">Ưu điểm</h2>
+        <br>
+        <p>
+            <ul>
+                <li><p><b>Bản quyền:</b> Hiện nay, ở Việt Nam nói riêng thì tỷ lệ người sử dụng Windows lậu đang chiếm con số rất cao. Và nếu bạn là một người nguyên tắc và chú trọng nhiều đến vấn đề bản quyền thì chắc hẳn bạn sẽ rất khó chấp nhận điều đó.Lợi thế của Linux chính là nền tảng mã nguồn mở và miễn phí. Nếu như sử dụng Windows bản quyền và bộ Microsoft Office bản quyền thì bạn sẽ phải chi khoảng vài triệu. Còn Linux thì không, bạn sẽ không phải bỏ xu nào mà vẫn sử dụng đầy đủ các tính năng, cũng như bộ ứng dụng văn phòng miễn phí như OpenOffice và LibreOffice.</p></li>
+                <li><p><b>Bảo mật:</b> Nếu như trên Windows bạn luôn phải chật vật đối mặt với ngày càng nhiều những con virus, mã độc,… thì bạn lại được an toàn khi sử dụng Linux, bởi vì đơn giản, tất cả bọn chúng đều không thể hoạt động được trên nền tảng này. Công việc của bạn chỉ là xóa khi thấy bọn chúng trong USB hay ổ cứng di động.</p></li>
+                <li><p><b>Linh hoạt:</b> Trên Linux, nếu bạn có nhiều hiểu biết về nó, bạn có thể dễ dàng chỉnh sửa theo ý mình, còn trên Windows, nếu không có sự chấp thuận của Microsoft bạn sẽ không được phép làm điều đó. Hơn nữa, Linux còn mang lại sự tương thích với rất nhiều môi trường khác nhau và đây là một môi trường lý tưởng cho các lập trình viên cũng như các nhà phát triển.</p></li>
+                <li><p><b>Hoạt động mượt mà trên các máy tính có cấu hình yếu:</b> Khi Windows tung ra một bản nâng cấp phiên bản, kéo theo đó là sự nâng lên về yêu cầu phần cứng, khi đó nếu laptop có cấu hình không đủ, thì người dùng sẽ dừng lại ở phiên bản cũ đó và không còn được Microsoft “chăm lo” nữa hoặc sẽ phải nâng cấp cho phần cứng của mình. Còn đối với Linux thì không, hệ điều hành này hoạt động mượt mà và cực kỳ ổn định trên các máy tính có cấu hình thấp và vẫn được nâng cấp, hỗ trợ thường xuyên từ cộng đồng lập trình Linux.</p></li>
+            </ul>
+        </p>
+       </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-white">
+        <div class="container">
+          <h2 class="text-primary mb-3">Nhược điểm</h2>
+          <br>
+          <p>Số lượng ứng dụng hỗ trợ trên Linux còn rất hạn chế.</p>
+          <p>Một số nhà sản xuất không phát triển driver hỗ trợ nền tảng Linux.</p>
+          <p>Khó làm quen, đặc biệt nếu bạn đã quá quen thuộc với Windows thì khi chuyển sang Linux, bạn sẽ cần một khoảng thời gian để làm quen nó.</p>
+         </div>
+        </div>
+      </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/rangeslider.min.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+  <footer>
+    <div class="line">
+      <div class="col">
+        <p><b>Contact me:</b> phong.to19102001@hcmut.edu.vn</p>
+      </div>
+      <div class="col">
+        <div class="wrap">
+          <div class="wrap_text">
+            <p><b>Follow me</b></p>
+          </div>
+          <div class="icon">
+            <div class="wrap_icon">
+              <a href="https://www.facebook.com/Hyperwindy" target="blank"><i class="icon-facebook"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://twitter.com/hyper_windy" target="blank"><i class="icon-twitter"></i></a>
+            </div>
+            <div class="wrap_icon">
+              <a href="https://www.instagram.com/hyper_windy" target="blank"><i class="icon-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line_s">
+      <div class="col_s">
+        <p id="copyright">Copyright &copy; 2019. All rights reserved | This website is made by Thanh Phong</p>
+      </div>
+    </div>
+  </footer>
+</html>
